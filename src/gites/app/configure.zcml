@@ -1,0 +1,31 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five"
+           xmlns:plone="http://namespaces.plone.org/plone"
+           xmlns:meta="http://namespaces.zope.org/meta"
+           i18n_domain="gites">
+
+  <exclude package="zope.browserpage" file="meta.zcml"/>
+
+  <meta:directives namespace="http://namespaces.zope.org/tales">
+
+    <meta:directive name="expressiontype"
+        schema="zope.browserpage.metadirectives.IExpressionTypeDirective"
+        handler="zope.browserpage.metaconfigure.expressiontype"
+        />
+
+  </meta:directives>
+
+  <include package="gites.core"/>
+  <includeOverrides package="gites.core"/>
+  <include package="gites.calendar"/>
+  <include package="gites.imports"/>
+  <include package="Products.LinguaPlone"/>
+  <include package="bnbelgium.skin"/>
+  <includeOverrides package="gites.calendar"/>
+  <include package="gites.db"/>
+  <include package="gites.ldap"/>
+  <include package="gites.skin"/>
+  <include package="gites.imports"/>
+
+</configure>
