@@ -41,5 +41,6 @@ setup(name='gites.app',
         'bnbelgium.skin',
         'Products.LinguaPlone',
         'Plone',
+        'Pillow',
         'Products.MemcachedManager'
       ])
