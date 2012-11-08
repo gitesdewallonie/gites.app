@@ -18,16 +18,20 @@
   </meta:directives>
 
   <include package="gites.core"/>
-  <includeOverrides package="gites.core"/>
   <include package="gites.calendar"/>
   <include package="gites.imports"/>
   <include package="Products.LinguaPlone"/>
   <include package="bnbelgium.skin"/>
-  <includeOverrides package="gites.calendar"/>
+  <includeOverrides package="gites.calendar" file="overrides.zcml"/>
   <include package="gites.db"/>
   <include package="gites.ldap"/>
   <include package="gites.skin"/>
   <include package="gites.imports"/>
+  <include package="five.formlib"/>
+  <include package="zope.formlib"/>
+  <!-- create Products.PloneZCdatetimewidget package first ! -->
+  <!-- include package="Products.PloneZCdatetimewidget"/ -->
+  <includeOverrides package="zc.datetimewidget" file="overrides.zcml"/>
 
   <five:registerPackage package="." initialize=".initialize" />
   <genericsetup:registerProfile

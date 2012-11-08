@@ -42,6 +42,10 @@ setup(name='gites.app',
         'Products.LinguaPlone',
         'Plone',
         'Pillow',
-        'Products.MemcachedManager'
+        'Products.MemcachedManager',
+
       ],
       extras_require={'test': ['plone.app.testing']})
+
+# XXX add package:
+#        'Products.PloneZCdatetimewidget'
