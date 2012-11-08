@@ -3,6 +3,7 @@
            xmlns:five="http://namespaces.zope.org/five"
            xmlns:plone="http://namespaces.plone.org/plone"
            xmlns:meta="http://namespaces.zope.org/meta"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
            i18n_domain="gites">
 
   <exclude package="zope.browserpage" file="meta.zcml"/>
@@ -27,5 +28,14 @@
   <include package="gites.ldap"/>
   <include package="gites.skin"/>
   <include package="gites.imports"/>
+
+  <five:registerPackage package="." initialize=".initialize" />
+  <genericsetup:registerProfile
+      name="default"
+      title="gites.app"
+      directory="profiles/default"
+      description="Installs the gites.app package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
 </configure>

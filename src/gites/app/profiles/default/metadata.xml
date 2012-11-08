@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<metadata>
+   <version>0001</version>
+   <dependencies>
+     <dependency>profile-gites.ldap:default</dependency>
+     <dependency>profile-gites.skin:default</dependency>
+     <dependency>profile-gites.calendar:default</dependency>
+   </dependencies>
+</metadata>
