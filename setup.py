@@ -43,4 +43,5 @@ setup(name='gites.app',
         'Plone',
         'Pillow',
         'Products.MemcachedManager'
-      ])
+      ],
+      extras_require={'test': ['plone.app.testing']})
