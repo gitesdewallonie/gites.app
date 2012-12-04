@@ -44,7 +44,7 @@ setup(name='gites.app',
         'Plone',
         'Pillow',
         'Products.MemcachedManager',
-
+        'plone.app.jquery',
       ],
       extras_require={'test': ['plone.app.testing']})
 

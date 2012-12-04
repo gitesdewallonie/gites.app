@@ -29,6 +29,7 @@
   <include package="gites.skin"/>
   <include package="gites.imports"/>
   <include package="five.formlib"/>
+  <include package="plone.app.jquery"/>
   <include package="zope.formlib"/>
   <!-- create Products.PloneZCdatetimewidget package first ! -->
   <!-- include package="Products.PloneZCdatetimewidget"/ -->
