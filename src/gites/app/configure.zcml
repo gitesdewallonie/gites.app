@@ -25,6 +25,7 @@
   <includeOverrides package="gites.calendar" file="overrides.zcml"/>
   <include package="gites.db"/>
   <include package="gites.ldap"/>
+  <include package="gites.map"/>
   <include package="gites.skin"/>
   <include package="gites.imports"/>
   <include package="five.formlib"/>
