@@ -28,6 +28,7 @@
   <include package="gites.map"/>
   <include package="gites.skin"/>
   <include package="gites.imports"/>
+  <include package="gites.shop"/>
   <include package="five.formlib"/>
   <include package="plone.app.jquery"/>
   <include package="zope.formlib"/>
