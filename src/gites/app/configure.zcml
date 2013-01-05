@@ -8,15 +8,6 @@
 
   <exclude package="zope.browserpage" file="meta.zcml"/>
 
-  <meta:directives namespace="http://namespaces.zope.org/tales">
-
-    <meta:directive name="expressiontype"
-        schema="zope.browserpage.metadirectives.IExpressionTypeDirective"
-        handler="zope.browserpage.metaconfigure.expressiontype"
-        />
-
-  </meta:directives>
-
   <include package="gites.core"/>
   <include package="gites.calendar"/>
   <include package="gites.imports"/>
