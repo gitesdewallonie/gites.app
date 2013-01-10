@@ -46,6 +46,7 @@ setup(name='gites.app',
         'Pillow',
         'Products.MemcachedManager',
         'plone.app.jquery',
+        'collective.rope',
       ],
       extras_require={'test': ['plone.app.testing']})
 
