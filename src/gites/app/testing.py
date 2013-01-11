@@ -10,7 +10,7 @@ GITES_APP = PloneWithPackageLayer(
     zcml_package=gites.app,
     zcml_filename='testing.zcml',
     gs_profile_id='gites.app:testing',
-    additional_z2_products=('Products.CMFPlacefulWorkflow', 'gites.core'),
+    additional_z2_products=('Products.CMFPlacefulWorkflow', 'gites.core', 'gites.db'),
     name="GITES_APP")
 
 GITES_APP_INTEGRATION = IntegrationTesting(
