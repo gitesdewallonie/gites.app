@@ -10,6 +10,7 @@
 
   <include package="gites.core"/>
   <include package="gites.calendar"/>
+  <include package="gites.gdwadmin"/>
   <include package="gites.imports"/>
   <include package="Products.LinguaPlone"/>
   <include package="bnbelgium.skin"/>
