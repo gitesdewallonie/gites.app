@@ -16,7 +16,6 @@
   <include package="bnbelgium.skin"/>
   <includeOverrides package="gites.calendar" file="overrides.zcml"/>
   <include package="gites.db"/>
-  <include package="gites.db" file="rdbengine.zcml"/>
   <include package="gites.ldap"/>
   <include package="gites.map"/>
   <include package="gites.skin"/>
