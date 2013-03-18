@@ -51,4 +51,7 @@ setup(name='gites.app',
       extras_require={'test': ['plone.app.testing']})
 
 # XXX add package:
+# vieu .tar pourri, il faudrait en faire un egg ou ne plus utiliser ca
+# (actuellement utilisé dans gites.skin cf Calendar.setup et peut etre autre
+# chose)
 #        'Products.PloneZCdatetimewidget'
