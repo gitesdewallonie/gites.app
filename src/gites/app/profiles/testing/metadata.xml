@@ -4,6 +4,7 @@
   <dependencies>
     <dependency>profile-Products.CMFPlone:testfixture</dependency>
     <dependency>profile-gites.skin:default</dependency>
+    <dependency>profile-gites.theme:default</dependency>
     <dependency>profile-gites.calendar:default</dependency>
     <dependency>profile-gites.shop:default</dependency>
   </dependencies>
