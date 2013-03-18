@@ -20,6 +20,7 @@
   <include package="gites.ldap"/>
   <include package="gites.map"/>
   <include package="gites.skin"/>
+  <include package="gites.theme"/>
   <include package="gites.imports"/>
   <include package="gites.shop"/>
   <include package="five.formlib"/>
