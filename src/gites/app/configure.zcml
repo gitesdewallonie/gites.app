@@ -12,6 +12,7 @@
   <include package="gites.calendar"/>
   <include package="gites.gdwadmin"/>
   <include package="gites.imports"/>
+  <include package="gites.locales"/>
   <include package="Products.LinguaPlone"/>
   <include package="bnbelgium.skin"/>
   <includeOverrides package="gites.calendar" file="overrides.zcml"/>
@@ -19,6 +20,7 @@
   <include package="gites.ldap"/>
   <include package="gites.map"/>
   <include package="gites.skin"/>
+  <include package="gites.theme"/>
   <include package="gites.imports"/>
   <include package="gites.shop"/>
   <include package="five.formlib"/>
