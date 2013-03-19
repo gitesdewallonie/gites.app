@@ -26,6 +26,7 @@
   <include package="five.formlib"/>
   <include package="plone.app.jquery"/>
   <include package="zope.formlib"/>
+  <include package="plone.widgets"/>
   <!-- create Products.PloneZCdatetimewidget package first ! -->
   <!-- include package="Products.PloneZCdatetimewidget"/ -->
   <includeOverrides package="zc.datetimewidget" file="overrides.zcml"/>
