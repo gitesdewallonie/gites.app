@@ -23,6 +23,7 @@
   <include package="gites.theme"/>
   <include package="gites.imports"/>
   <include package="gites.shop"/>
+  <include package="gites.proprio" />
   <include package="five.formlib"/>
   <include package="plone.app.jquery"/>
   <include package="zope.formlib"/>
