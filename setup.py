@@ -30,6 +30,8 @@ setup(name='gites.app',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+          'collective.fb',
+          'sc.social.like',
           'setuptools',
           'gites.calendar',
           'gites.core',
@@ -50,7 +52,8 @@ setup(name='gites.app',
           'Pillow',
           'Products.MemcachedManager',
           'plone.app.jquery',
-          'plone.widgets'],
+          'plone.widgets',
+      ],
       extras_require={'test': ['plone.app.testing']})
 
 # XXX add package:
