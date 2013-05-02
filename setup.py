@@ -53,6 +53,7 @@ setup(name='gites.app',
           'Products.MemcachedManager',
           'plone.app.jquery',
           'plone.widgets',
+          'collective.embedly',
       ],
       extras_require={'test': ['plone.app.testing']})
 
