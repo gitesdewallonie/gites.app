@@ -22,6 +22,7 @@
   <include package="gites.imports"/>
   <include package="gites.shop"/>
   <include package="gites.proprio" />
+  <include package="gites.pivot.core" />
   <include package="five.formlib"/>
   <include package="plone.app.jquery"/>
   <include package="zope.formlib"/>
