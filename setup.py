@@ -56,6 +56,7 @@ setup(name='gites.app',
           'plone.app.jquery',
           'plone.widgets',
           'collective.embedly',
+          'collective.cookiecuttr',
       ],
       extras_require={'test': ['plone.app.testing']})
 
